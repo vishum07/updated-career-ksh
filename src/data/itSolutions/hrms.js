@@ -1,0 +1,91 @@
+export const hrmsPageData = {
+  title: 'HRMS Solutions',
+  subtitle: 'Smart, Scalable Human Resource Management Systems',
+  videoSrc: '/HR Management Video.mp4',
+  overview: [
+    'Modern organizations need efficient systems to manage their workforce, streamline HR processes, and enhance employee experience.',
+    'We provide AI-powered HRMS solutions that automate recruitment, payroll, performance management, and employee engagement, enabling businesses to build productive and future-ready teams.',
+  ],
+  challenges: [
+    'Managing employee data and HR processes efficiently',
+    'Streamlining recruitment and onboarding workflows',
+    'Ensuring accurate payroll and compliance',
+    'Tracking employee performance and productivity',
+    'Enhancing employee engagement and retention',
+  ],
+  solutionsTitle: 'Our AI-Powered HRMS Solutions',
+  solutions: [
+    {
+      title: 'Employee Management System',
+      tagline: 'Centralized employee data and lifecycle management',
+      description: 'Manage all employee information from hiring to exit in one platform.',
+      capabilities: [
+        'Digital employee records',
+        'Role-based access control',
+        'Document management',
+        'Employee lifecycle tracking',
+        'Self-service employee portal',
+      ],
+    },
+    {
+      title: 'Recruitment & Onboarding',
+      tagline: 'Hire smarter and faster',
+      description: 'Streamline hiring processes with intelligent automation.',
+      capabilities: [
+        'AI-based resume screening',
+        'Candidate ranking and shortlisting',
+        'Interview scheduling automation',
+        'Digital onboarding workflows',
+        'Offer letter and document generation',
+      ],
+    },
+    {
+      title: 'Payroll & Compliance Management',
+      tagline: 'Accurate, compliant, and automated payroll',
+      description: 'Simplify payroll processing and ensure statutory compliance.',
+      capabilities: [
+        'Automated salary calculation and payslips',
+        'Tax, PF, and compliance management',
+        'Attendance and leave integration',
+        'Multi-location payroll support',
+        'Financial reporting',
+      ],
+    },
+    {
+      title: 'Attendance & Leave Management',
+      tagline: 'Track time and attendance effortlessly',
+      description: 'Monitor employee attendance and manage leave policies efficiently.',
+      capabilities: [
+        'Biometric and digital attendance tracking',
+        'Leave requests and approvals',
+        'Shift and roster management',
+        'Overtime calculation',
+        'Real-time attendance analytics',
+      ],
+    },
+    {
+      title: 'Performance Management System',
+      tagline: 'Drive productivity and growth',
+      description: 'Evaluate and improve employee performance with data-driven insights.',
+      capabilities: [
+        'Goal setting and KPI tracking',
+        'Continuous performance reviews',
+        '360-degree feedback system',
+        'AI-driven performance insights',
+        'Employee development planning',
+      ],
+    },
+    {
+      title: 'Employee Engagement Platform',
+      tagline: 'Build a motivated and connected workforce',
+      description: 'Enhance employee satisfaction and retention.',
+      capabilities: [
+        'Surveys and feedback systems',
+        'Recognition and rewards programs',
+        'Internal communication tools',
+        'Sentiment analysis using AI',
+        'Engagement analytics',
+      ],
+    },
+  ],
+}

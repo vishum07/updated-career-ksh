@@ -1,0 +1,90 @@
+export const hospitalPageData = {
+  title: 'Hospital Management Solutions',
+  subtitle: 'Intelligent Digital Systems for Modern Healthcare',
+  overview: [
+    'Hospitals and healthcare providers require efficient, secure, and patient-centric systems to deliver high-quality care.',
+    'We provide AI-powered hospital management solutions that streamline clinical workflows, patient management, billing, and operations, enabling healthcare institutions to improve outcomes, reduce costs, and enhance patient experiences.',
+  ],
+  challenges: [
+    'Managing patient data and medical records securely',
+    'Reducing operational inefficiencies and manual processes',
+    'Ensuring accurate billing and insurance processing',
+    'Optimizing resource utilization (beds, staff, equipment)',
+    'Delivering personalized and timely patient care',
+  ],
+  solutionsTitle: 'Our AI-Powered Solutions',
+  solutions: [
+    {
+      title: 'Electronic Health Records (EHR) System',
+      tagline: 'Centralized, secure, and accessible patient data',
+      description: 'Digitize and manage patient records for seamless healthcare delivery.',
+      capabilities: [
+        'Unified patient health records across departments',
+        'Real-time data access for doctors and staff',
+        'Secure cloud-based storage with compliance',
+        'Integration with labs, pharmacies, and devices',
+        'Role-based access control',
+      ],
+    },
+    {
+      title: 'Hospital Information Management System (HIMS)',
+      tagline: 'End-to-end hospital operations management',
+      description: 'Streamline administrative and clinical workflows in one platform.',
+      capabilities: [
+        'Patient registration and appointment scheduling',
+        'OPD/IPD management',
+        'Bed and ward management',
+        'Staff and duty scheduling',
+        'Centralized dashboard for hospital operations',
+      ],
+    },
+    {
+      title: 'AI-Powered Diagnostics Support',
+      tagline: 'Enhance clinical decision-making',
+      description: 'Assist doctors with faster and more accurate diagnoses.',
+      capabilities: [
+        'Medical imaging analysis (X-ray, MRI, CT scans)',
+        'AI-based disease prediction models',
+        'Clinical decision support systems (CDSS)',
+        'Early risk detection and alerts',
+        'Integration with diagnostic equipment',
+      ],
+    },
+    {
+      title: 'Smart Billing & Insurance Management',
+      tagline: 'Accurate, transparent, and efficient billing',
+      description: 'Simplify hospital billing and insurance claim processes.',
+      capabilities: [
+        'Automated billing and invoicing',
+        'Insurance claim processing and tracking',
+        'Fraud detection in billing',
+        'Payment gateway integration',
+        'Financial reporting and analytics',
+      ],
+    },
+    {
+      title: 'Pharmacy & Inventory Management',
+      tagline: 'Ensure availability and reduce wastage',
+      description: 'Optimize inventory across medicines and medical supplies.',
+      capabilities: [
+        'Real-time stock tracking',
+        'Expiry and batch management',
+        'Automated reordering',
+        'Demand forecasting using AI',
+        'Integration with prescriptions and billing',
+      ],
+    },
+    {
+      title: 'Patient Engagement & Telemedicine',
+      tagline: 'Connected and personalized care experiences',
+      description: 'Improve patient interaction and accessibility to healthcare services.',
+      capabilities: [
+        'Teleconsultation and video appointments',
+        'Patient mobile apps and portals',
+        'Appointment reminders and notifications',
+        'Digital prescriptions',
+        'Feedback and satisfaction tracking',
+      ],
+    },
+  ],
+}

@@ -242,7 +242,7 @@ export default function Header() {
                         <div
                           className="
                             absolute left-1/2 top-full z-50 translate-y-4 w-[min(780px,calc(100vw-2.5rem))]
-                            -translate-x-[48%] overflow-hidden rounded-2xl max-w-[90vw]
+-translate-x-[56%] overflow-hidden rounded-2xl max-w-[90vw]
                             border border-orange-500/20 bg-slate-950/95 shadow-2xl backdrop-blur-lg
                           "
                           role="menu"

@@ -295,7 +295,7 @@ export const careersContent = {
     hiringProcess: ['Apply', 'Interview', 'Skill test', 'Offer'],
     culture: ['Innovation', 'Collaboration', 'Work-life balance'],
     jobs: [{
-            title: 'Java Developer',
+            jobProfile: 'Java Developer',
             experience: '0.6 – 2 Years',
             skills: 'Core Java, J2EE, Spring Boot, RESTful APIs | MySQL / Oracle Database | Good understanding of OOPs concepts and design patterns | Hands-on with version control (Git) | Strong debugging and problem-solving skills',
             location: 'Pune',
@@ -306,7 +306,7 @@ export const careersContent = {
             ]
         },
         {
-            title: '.NET Developer',
+            jobProfile: '.NET Developer',
             experience: '0.6 – 2 Years',
             skills: 'ASP.NET, C#, MVC, .NET Core | SQL Server, Entity Framework | JavaScript, HTML, CSS (Basic UI knowledge) | Understanding of API integration and debugging',
             location: 'Pune',
@@ -317,7 +317,7 @@ export const careersContent = {
             ]
         },
         {
-            title: 'Software Tester (Manual / Automation)',
+            jobProfile: 'Software Tester (Manual / Automation)',
             experience: '0.6 – 2 Years',
             skills: 'Manual Testing, Test Case Design, Regression & Functional Testing | Automation Tools (Selenium, TestNG, JMeter – added advantage) | Defect tracking using JIRA or similar tools',
             location: 'Pune',
@@ -328,7 +328,7 @@ export const careersContent = {
             ]
         },
         {
-            title: 'Application Support Engineer',
+            jobProfile: 'Application Support Engineer',
             experience: '0.6 – 2 Years',
             skills: 'Linux / Windows Server handling | SQL Queries, Log analysis, Incident management | Ticketing tools (JIRA, ServiceNow, etc.) | Knowledge of ITIL process (Incident / Problem / Change Management)',
             location: 'Pune',
@@ -339,7 +339,7 @@ export const careersContent = {
             ]
         },
         {
-            title: 'DevOps Engineer',
+            jobProfile: 'DevOps Engineer',
             experience: '0.6 – 2 Years',
             skills: 'CI/CD tools (Jenkins, GitHub Actions) | AWS / Azure basics | Docker, Kubernetes (added advantage) | Shell / Python scripting',
             location: 'Pune',
@@ -350,7 +350,7 @@ export const careersContent = {
             ]
         },
         {
-            title: 'Network Engineer',
+            jobProfile: 'Network Engineer',
             experience: '0.6 – 2 Years',
             skills: 'LAN/WAN, Switching, Routing, Firewalls | Knowledge of Cisco devices (CCNA preferred) | Network troubleshooting and monitoring tools',
             location: 'Pune',

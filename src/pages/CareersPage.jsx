@@ -103,15 +103,19 @@ export default function CareersPage() {
                       </p>
                     </div>
                     {hasRoles && (
-                      <div className="mt-3">
-                        <p className="font-semibold text-gray-300">Roles & Responsibilities:</p>
-                        <ul className="list-disc ml-5 mt-1 space-y-1 text-sm text-gray-400">
-                          {rolesText.split(',').map((role, idx) => (
-                            <li key={idx}>{role.trim()}</li>
-                          ))}
-                        </ul>
+                    <div className="mt-3">
+                      <p className="font-semibold text-gray-300">
+                      Roles & Responsibilities:
+                      </p>
+
+                      <div
+                        className="mt-2 text-sm text-gray-400 leading-7 whitespace-pre-line"
+                      >
+                        {rolesText}
                       </div>
-                    )}
+                    </div>
+                  )}
+    
                   </div>
                   <Link
                     to={`/careers/apply?role=${encodeURIComponent(title)}`}

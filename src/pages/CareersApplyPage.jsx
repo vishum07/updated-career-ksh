@@ -18,10 +18,10 @@ export default function CareersApplyPage() {
 
   const [form, setForm] = useState({
     name: '',
-    organization: '',
     mobile: '',
     email: '',
   })
+
   const [resume, setResume] = useState(null)
   const [submitState, setSubmitState] = useState({
     loading: false,
@@ -84,10 +84,10 @@ export default function CareersApplyPage() {
     payload.append('name', form.name)
     payload.append('email', form.email)
     payload.append('mobile', form.mobile)
-    payload.append('college_or_company', form.organization)
     payload.append('role', role)
     payload.append('resume', resume)
     payload.append('_subject', `Career Application: ${role}`)
+
 
     try {
       const response = await fetch(`https://formsubmit.co/ajax/${CAREERS_RECIPIENT}`, {
@@ -106,10 +106,10 @@ export default function CareersApplyPage() {
 
       setForm({
         name: '',
-        organization: '',
         mobile: '',
         email: '',
       })
+
       setResume(null)
       setSubmitState({
         loading: false,
@@ -163,19 +163,7 @@ export default function CareersApplyPage() {
             />
           </div>
 
-          <div>
-            <label htmlFor="organization" className="block text-sm text-gray-400 mb-2">
-              College Name / Ex-Company Name
-            </label>
-            <input
-              id="organization"
-              name="organization"
-              required
-              value={form.organization}
-              onChange={handleChange}
-              className="w-full rounded-xl bg-black/40 border border-white/10 px-4 py-3 text-white focus:border-cyan-500 focus:outline-none"
-            />
-          </div>
+
 
           <div className="grid md:grid-cols-2 gap-6">
             <div>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install framer-motion)",
+      "Bash(npx eslint src/components/home/Industries.jsx)",
+      "Bash(npx eslint src/components/services/ServiceChapter.jsx src/data/itSolutions/hrms.js)",
+      "Bash(npx eslint src/components/services/ServiceChapter.jsx)",
+      "Bash(rm -rf node_modules/.vite)",
+      "Bash(npx vite build)"
+    ]
+  }
+}

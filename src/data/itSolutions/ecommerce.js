@@ -1,0 +1,90 @@
+export const ecommercePageData = {
+  title: 'E-Commerce Solutions',
+  subtitle: 'Scalable Web & Mobile Apps for Modern Commerce',
+  overview: [
+    "In today's digital-first world, e-commerce businesses need fast, scalable, and user-friendly platforms to stay competitive.",
+    'We build end-to-end e-commerce solutions across web and mobile applications, powered by AI and modern technologies — enabling businesses to deliver seamless shopping experiences, increase conversions, and drive growth.',
+  ],
+  challenges: [
+    'Delivering seamless user experience across devices',
+    'Managing high traffic and large product catalogs',
+    'Ensuring secure and fast payment processing',
+    'Reducing cart abandonment rates',
+    'Personalizing customer journeys at scale',
+  ],
+  solutionsTitle: 'Our E-Commerce Solutions',
+  solutions: [
+    {
+      title: 'Custom Web E-Commerce Platforms',
+      tagline: 'High-performance, responsive online stores',
+      description: 'Build powerful web platforms tailored to your business needs.',
+      capabilities: [
+        'Responsive UI/UX design',
+        'Advanced product catalog management',
+        'Secure checkout and payment integration',
+        'SEO-friendly architecture',
+        'Multi-language & multi-currency support',
+      ],
+    },
+    {
+      title: 'Mobile Commerce Applications',
+      tagline: 'Engaging shopping experiences on mobile',
+      description: 'Deliver intuitive and fast mobile apps for iOS and Android users.',
+      capabilities: [
+        'Native & cross-platform app development',
+        'Push notifications and in-app promotions',
+        'One-click checkout',
+        'Mobile wallet integration',
+        'Offline browsing capabilities',
+      ],
+    },
+    {
+      title: 'AI-Powered Personalization',
+      tagline: 'Deliver what customers want — instantly',
+      description: 'Enhance user experience with intelligent recommendations.',
+      capabilities: [
+        'Product recommendation engines',
+        'Personalized homepages and offers',
+        'Customer segmentation and targeting',
+        'Dynamic pricing strategies',
+        'Behavioral analytics',
+      ],
+    },
+    {
+      title: 'Order & Inventory Management',
+      tagline: 'Streamline operations from order to delivery',
+      description: 'Efficiently manage orders, inventory, and fulfillment processes.',
+      capabilities: [
+        'Real-time order tracking',
+        'Inventory synchronization across channels',
+        'Warehouse and logistics integration',
+        'Automated order processing',
+        'Demand forecasting using AI',
+      ],
+    },
+    {
+      title: 'Secure Payment Integration',
+      tagline: 'Fast, safe, and flexible transactions',
+      description: 'Enable seamless and secure payment experiences.',
+      capabilities: [
+        'Integration with multiple payment gateways',
+        'UPI, cards, wallets, and EMI options',
+        'Fraud detection systems',
+        'PCI-DSS compliant security',
+        'Multi-currency support',
+      ],
+    },
+    {
+      title: 'Analytics & Growth Tools',
+      tagline: 'Data-driven decisions for business growth',
+      description: 'Gain insights into customer behavior and performance.',
+      capabilities: [
+        'Sales and revenue analytics',
+        'Customer behavior tracking',
+        'Conversion rate optimization',
+        'Marketing campaign insights',
+        'A/B testing tools',
+      ],
+    },
+  ],
+}

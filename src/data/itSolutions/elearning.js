@@ -1,0 +1,90 @@
+export const elearningPageData = {
+  title: 'eLearning Solutions',
+  subtitle: 'Smart Learning Platforms for Corporates & Educational Institutes',
+  overview: [
+    "In today's fast-evolving world, continuous learning is essential for both organizations and educational institutions.",
+    'We provide AI-powered eLearning platforms that enable skill development, employee training, and digital education delivery — helping businesses and institutes improve performance, engagement, and outcomes.',
+  ],
+  challenges: [
+    'Delivering engaging and interactive learning experiences',
+    'Tracking learner progress and performance effectively',
+    'Managing large-scale training programs',
+    'Ensuring content personalization and adaptability',
+    'Measuring training ROI and learning impact',
+  ],
+  solutionsTitle: 'Our eLearning Solutions',
+  solutions: [
+    {
+      title: 'Learning Management System (LMS)',
+      tagline: 'Centralized platform for learning and training',
+      description: 'Manage courses, users, and learning journeys in one place.',
+      capabilities: [
+        'Course creation and management',
+        'User roles (admin, trainer, learner)',
+        'Progress tracking and reporting',
+        'Certification and assessments',
+        'Multi-device accessibility (web & mobile)',
+      ],
+    },
+    {
+      title: 'Corporate Training Platform',
+      tagline: 'Upskill your workforce efficiently',
+      description: 'Deliver structured training programs to employees.',
+      capabilities: [
+        'Employee onboarding programs',
+        'Skill development and compliance training',
+        'Department-wise learning paths',
+        'Performance-based learning modules',
+        'Integration with HRMS systems',
+      ],
+    },
+    {
+      title: 'Virtual Classroom & Live Learning',
+      tagline: 'Interactive real-time learning experiences',
+      description: 'Enable live sessions, webinars, and collaborative learning.',
+      capabilities: [
+        'Live video classes and webinars',
+        'Screen sharing and whiteboard tools',
+        'Chat, Q&A, and polls',
+        'Session recording and playback',
+        'Attendance and participation tracking',
+      ],
+    },
+    {
+      title: 'AI-Powered Personalized Learning',
+      tagline: 'Adaptive learning for better outcomes',
+      description: 'Deliver customized content based on learner behavior and performance.',
+      capabilities: [
+        'Personalized course recommendations',
+        'Adaptive assessments and quizzes',
+        'Learning path optimization',
+        'Skill gap analysis',
+        'Intelligent content suggestions',
+      ],
+    },
+    {
+      title: 'Assessment & Certification System',
+      tagline: 'Measure learning effectiveness',
+      description: 'Evaluate learners and validate skills with certifications.',
+      capabilities: [
+        'Online tests and quizzes',
+        'Automated evaluation and grading',
+        'Certification generation',
+        'Performance analytics',
+        'Anti-cheating mechanisms',
+      ],
+    },
+    {
+      title: 'Analytics & Reporting',
+      tagline: 'Data-driven learning insights',
+      description: 'Track performance and improve learning strategies.',
+      capabilities: [
+        'Learner progress dashboards',
+        'Course completion rates',
+        'Engagement analytics',
+        'Training ROI measurement',
+        'Custom reports for management',
+      ],
+    },
+  ],
+}

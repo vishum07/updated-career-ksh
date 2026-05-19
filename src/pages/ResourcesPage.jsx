@@ -72,9 +72,10 @@ export default function ResourcesPage() {
 
           {/* Mechanical Solutions Card */}
           <section className="rounded-2xl border border-white/10 bg-white/5 p-7">
-            <h2 className="text-2xl font-bold text-cyan-100 mb-2">Mechanical solutions</h2>
+            <h2 className="text-2xl font-bold text-cyan-100 mb-2">Mechanical Engineering Solutions</h2>
             <p className="text-gray-400 mb-5">
               Metal equipment design, simulation & analysis, manufacturing support, maintenance, and industrial services.
+
             </p>
             <div className="mt-6">
               <Link
@@ -88,9 +89,10 @@ export default function ResourcesPage() {
 
           {/* Civil Solutions Card */}
           <section className="rounded-2xl border border-white/10 bg-white/5 p-7">
-            <h2 className="text-2xl font-bold text-cyan-100 mb-2">Civil solutions</h2>
+            <h2 className="text-2xl font-bold text-cyan-100 mb-2">Civil Engineering Solutions</h2>
             <p className="text-gray-400 mb-5">
               Structural design, 3D visualization, BIM coordination, and planning for real estate and infrastructure.
+
             </p>
             <div className="mt-6">
               <Link

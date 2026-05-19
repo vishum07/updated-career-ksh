@@ -46,8 +46,8 @@ export const resourcesMegaMenu = [{
         title: 'Technical Solutions',
         items: [
             { name: 'Information Technology solutions overview', to: '/services/it' },
-            { name: 'Mechanical solutions', to: '/services/mechanical' },
-            { name: 'Civil solutions', to: '/services/civil' },
+            { name: 'Mechanical Engineering Solutions', to: '/services/mechanical' },
+            { name: 'Civil Engineering Solutions', to: '/services/civil' },
         ],
     },
     {
@@ -246,7 +246,7 @@ export const servicesPageContent = {
         },
         {
             path: '/services/mechanical',
-            title: 'Mechanical solutions',
+            title: 'Mechanical Engineering Solutions',
             description: 'Metal equipment design, simulation, manufacturing support, and plastic product & mold engineering.',
             points: [
                 'Metal equipment design, FEA, CFD, and fabrication support',
@@ -256,7 +256,7 @@ export const servicesPageContent = {
         },
         {
             path: '/services/civil',
-            title: 'Civil solutions',
+            title: 'Civil Engineering Solutions',
             description: 'Structural design, 3D modeling, BIM, construction planning, and interior design for real estate and infrastructure.',
             points: [
                 'RCC/steel structures, analysis, and code compliance',
@@ -450,8 +450,8 @@ export const privacySections = [{
 export const footerColumns = {
     solutions: [
         { name: 'Information Technology solutions', to: '/services/it' },
-        { name: 'Mechanical solutions', to: '/services/mechanical' },
-        { name: 'Civil solutions', to: '/services/civil' },
+            { name: 'Mechanical Engineering Solutions', to: '/services/mechanical' },
+            { name: 'Civil Engineering Solutions', to: '/services/civil' },
     ],
     company: [
         { name: 'About Us', to: '/about' },

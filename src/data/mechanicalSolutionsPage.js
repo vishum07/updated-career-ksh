@@ -1,4 +1,4 @@
-/** Mechanical solutions — full page copy (metal + plastic) */
+/** Mechanical Engineering Solutions — full page copy (metal + plastic) */
 
 export const mechanicalChapters = [
   {
